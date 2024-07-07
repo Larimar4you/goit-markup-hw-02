@@ -9,10 +9,13 @@ body {
 
 ul,ol {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .logo{
@@ -27,4 +30,12 @@ a {
 
 .header-logo .logo-part{
     color:#2e2f42;   
+}
+.nav-link:hover, .nav-link:focus {
+    color: #4d5ae5;
+}
+.contacts-link:hover, .contact-link:focus {
+    background-color: #4d5ae5;
+    color: #fff;
+    cursor: pointer;
 }
