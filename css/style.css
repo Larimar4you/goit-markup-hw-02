@@ -1,13 +1,11 @@
-/*font-family: "Raleway", sans-serif;
-font-family: "Roboto", sans-serif;*/
-
 body {
     font-family: "Roboto", sans-serif;
     color:  #434455;
     background-color: #fff;
 }
 
-ul,ol {
+ul, 
+ol {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -15,11 +13,6 @@ ul,ol {
 
 a {
     text-decoration: none;
-}
-
-.header {
-    font-family: "Raleway", sans-serif ;
-    font-weight: 700;
 }
 
 .header-logo {
@@ -32,15 +25,7 @@ a {
     color: #4d5ae5;
 }
 
-.header-logo-part {
-    color: #2e2f42;
-}
-
-.footer-logo .logo-part {
-    color: #f4f4fd;
-}
-
-.header-menu-link {
+.header-nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -48,28 +33,29 @@ a {
     color: #2e2f42;
 }
 
-.header-menu-link:hover,
-.header-menu-link:active,
-.header-menu-link:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
     color: #404bbf;
 }
 
-.header-contacts {
+.header-logo .header-logo-part {
+    color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+
+.contacts {
 font-family: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 }
 
-.header-contacts-link {
-color: #434455
-}
-
-.header-logo-link:hover,
-.header-logo-link:active,
-.header-logo-link:focus {
-    color: #404bbf;
+.contacts-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .hero {
@@ -79,7 +65,14 @@ color: #434455
     font-size: 56px;
 }
 
-
+.footer-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
 
 
 
