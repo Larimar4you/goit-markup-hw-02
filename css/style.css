@@ -37,7 +37,7 @@ a {
     color: #2e2f42;
 }
 
-.footer-logo .logo-part {
+.footer-logo .footer-logo-part {
     color: #f4f4fd;
 }
 
@@ -59,21 +59,18 @@ font-family: normal;
     color: #404bbf;
 }
 
+.page-footer {
+    background-color: #2e2f42; ;
+}
+
+
+
 .hero {
     width: 1440px;
     height: 600px;
     font-weight: 700;
     font-size: 56px;
-}
 
-.footer-item {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-}
 
 
 
